@@ -1,10 +1,13 @@
-# PowerShell Active Directory Automation
+## Create-Departments.ps1
 
-This project contains PowerShell scripts developed to automate common Active Directory administration tasks in a Windows Server environment.
+Creates organizational units (OUs) automatically in Active Directory.
 
-## Project Goals
+### Features
 
-- Learn PowerShell for Windows Administration
-- Automate repetitive Active Directory tasks
-- Simulate real-world IT administration scenarios
-- Build a professional GitHub portfolio
+- Creates multiple departments.
+- Checks whether the OU already exists.
+- Prevents duplicate OUs (idempotent).
+
+### Result
+
+![Create Departments](images/create-departments-result.png)
